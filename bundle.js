@@ -5,9 +5,9 @@ let string = prompt("Enter a string for palindrome testing", "Racecar");
 let phrase = new Phrase(string);
 
 if (phrase.isPalindrome()) {
-  alert(`The phrase: ${phrase.content} is a palindrome!`);
+  alert(`${phrase.content} is a palindrome!`);
 } else {
-  alert(`The phrase: ${phrase.content} is NOT a palindrome :(`);
+  alert(`${phrase.content} is NOT a palindrome :(`);
 }
 
 
